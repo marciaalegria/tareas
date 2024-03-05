@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class Cslculadora {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
 
@@ -22,7 +22,7 @@ public class Cslculadora {
         int opcion= scanner.nextInt();
             switch (opcion){
                 case 1:
-                    mostrarResultdo("Suma : ", num1 + num2);
+                    mostrarResultado("Suma : ", num1 + num2);
                     break;
                 case 2:
                     mostrarResultado("Resta : ", num1 - num2);
